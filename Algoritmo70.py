@@ -14,8 +14,8 @@ if (numero > 0):
         numero = int(math.floor(numero/2))
 else:
     if (numero == 0):
-        bianrio= "0"
+        binario= "0"
     else:
-        binario="No se puede convertir el númro. Ingrese solo númros positivos"
+        binario="No se puede convertir el número. Ingrese solo números positivos"
 
 print("El resultado de la conversión es: " +binario)
